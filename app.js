@@ -28,7 +28,7 @@ async function main() {
 
 main().catch((err) => {
     console.error("Error connecting to db", err);
-});
+}); 
 
 // Middleware setup
 app.set("view engine", "ejs");
