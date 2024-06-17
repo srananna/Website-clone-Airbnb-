@@ -43,7 +43,7 @@ store.on("error", () => {
 
 const initDB = async () => {
    await Listing.deleteMany({});
-   initData.data = initData.data.map((obj) => ({...obj, owner: "666979c6e37d72ba4edb8e9b"}));
+   initData.data = initData.data.map((obj) => ({...obj, owner: "666f23b4af55eb549754d7ea"}));
    await Listing.insertMany(initData.data);
    console.log("data was initialized");
 };
